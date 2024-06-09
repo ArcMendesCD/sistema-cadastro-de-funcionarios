@@ -1,0 +1,95 @@
+.registerContainer , .loginContainer{
+    margin: auto;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.registerContainer input, .loginContainer input, label{
+    width: 100%;
+    margin: 5px 0;
+    padding: 4px;
+    box-sizing: border-box;
+    color: #C1C1C1;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+}
+
+.registerContainer input[type=text], input[type=tel], .password, .cpassword, .loginContainer input[type=text]{
+    outline: none;
+    border: 0px;
+    border-bottom: 2px solid #C1C1C1;
+    text-decoration: none;
+    background-color: #2C2C2C;
+    color: #C1C1C1;
+}
+
+.registerContainer input[type=submit], .loginContainer input[type=submit]{
+    padding: 7px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #C1C1C1;
+    color: #2C2C2C;
+    font-weight: bold;
+}
+
+.registerContainer input[type=button], .loginContainer input[type=button]{
+    padding: 7px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgb(44, 128, 44);
+    color: white;
+    font-weight: bold;
+}
+
+
+input[type=submit]:hover, input[type=button]:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.registerContainer .successMessage, .loginContainer .successMessage{
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.registerContainer .alertMessage, .loginContainer .alertMessage{
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 146, 102);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.registerContainer img, .loginContainer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 27px;
+    color: #C1C1C1;
+    font-weight: bold;
+}
+
+hr{
+    color: #C1C1C1;
+    margin-bottom: 5%;
+}
